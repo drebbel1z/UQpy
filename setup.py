@@ -33,7 +33,7 @@ setup(
     packages=find_packages("src"),
     package_dir={"": "src"},
     package_data={"": ["*.pdf"]},
-    python_requires=">3.9.0",
+    python_requires=">3.12.0",
     install_requires=[
         "numpy>=2.0.0",
         "scipy>=1.13.0",
